@@ -3,6 +3,7 @@
 int num = 254342;
 Console.WriteLine(Kata.DescendingOrder(num));
 Console.WriteLine(Kata.DescendingOrder2(num));
+Console.WriteLine(Kata.DescendingOrder3(num));
 
 public static class Kata
 {
@@ -32,5 +33,14 @@ public static class Kata
     public static int DescendingOrder2(int num)
     {
         return int.Parse(string.Concat(num.ToString().OrderByDescending(x => x)));
+    }
+
+    public static int DescendingOrder3(int num)
+    {
+        string text = num.ToString();
+        var orderedText = text.OrderByDescending(x => x);
+        string empty = String.Concat(orderedText);
+
+        return Convert.ToInt32(empty);
     }
 }
