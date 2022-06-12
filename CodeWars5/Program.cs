@@ -1,4 +1,4 @@
-﻿Kata.ArrayDiff3(new int[] { 1, 2, 4, 5}, new int[] { 1, 1, 3 });
+﻿Kata.ArrayDiff2(new int[] { 1, 2, 4, 5}, new int[] { 1, 1, 3 });
 
 public class Kata
 {
@@ -41,9 +41,6 @@ public class Kata
                 Console.WriteLine("Y");
             }
         }
-
-        
-
         return a;
     }
 }

@@ -13,7 +13,8 @@ public static class Kata
         var arr = text.ToArray();
         List<char> list = new List<char>();
 
-        for (int i = 0; i < arr.Length; i++)
+        for (int i = 0; 
+        
         {
             list.Add(arr[i]);           
         }
