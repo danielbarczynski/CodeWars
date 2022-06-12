@@ -2,6 +2,7 @@
 using System.Linq;
 
 Console.WriteLine(Kata.GetUnique(new[] { 11, 11, 11, 11, 12 }));
+Console.WriteLine(Kata.GetUnique2(new[] { 11, 11, 11, 11, 12 }));
 
 public class Kata
 {
@@ -32,5 +33,10 @@ public class Kata
         }
 
         return arr[0];
+    }
+
+    public static int GetUnique2(IEnumerable<int> numbers)
+    {
+        return numbers.GroupBy(x => x).Single(x => x.Count() == 1).Key;
     }
 }
