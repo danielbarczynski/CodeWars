@@ -3,6 +3,7 @@ using System.Linq;
 
 Console.WriteLine(Kata.GetUnique(new[] { 11, 11, 11, 11, 12 }));
 Console.WriteLine(Kata.GetUnique2(new[] { 11, 11, 11, 11, 12 }));
+Console.WriteLine(Kata.GetUnique3(new[] { 11, 11, 11, 11, 12 }));
 
 public class Kata
 {
@@ -38,5 +39,11 @@ public class Kata
     public static int GetUnique2(IEnumerable<int> numbers)
     {
         return numbers.GroupBy(x => x).Single(x => x.Count() == 1).Key;
+    }
+
+    public static int GetUnique3(IEnumerable<int> numbers)
+    {
+        var num = numbers.OrderBy(x => x).ToArray();
+        return num[0] != num[1] ? num.First() : num.Last();
     }
 }
