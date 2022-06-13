@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars4", "CodeWars4\Code
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars5", "CodeWars5\CodeWars5.csproj", "{0DD7E31F-732D-472C-A15D-4A1CEA95F935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWars6", "CodeWars6\CodeWars6.csproj", "{DE521110-39AA-4901-901F-13975E443CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars6", "CodeWars6\CodeWars6.csproj", "{DE521110-39AA-4901-901F-13975E443CF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars7", "CodeWars7\CodeWars7.csproj", "{218942C0-336C-4EC9-B752-D88B822CCCA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeWars8", "CodeWars8\CodeWars8.csproj", "{250E119F-9B12-477F-8421-8D748A052236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{DE521110-39AA-4901-901F-13975E443CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE521110-39AA-4901-901F-13975E443CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE521110-39AA-4901-901F-13975E443CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218942C0-336C-4EC9-B752-D88B822CCCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218942C0-336C-4EC9-B752-D88B822CCCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218942C0-336C-4EC9-B752-D88B822CCCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218942C0-336C-4EC9-B752-D88B822CCCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{250E119F-9B12-477F-8421-8D748A052236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250E119F-9B12-477F-8421-8D748A052236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250E119F-9B12-477F-8421-8D748A052236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250E119F-9B12-477F-8421-8D748A052236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
